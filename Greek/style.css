@@ -1,0 +1,158 @@
+*
+{
+    
+    background-color: rgb(72, 71, 71);
+    color: white;
+    
+}
+
+.navbar
+{
+    display: flex;
+    align-items: center;
+    height: 12%;
+    
+}
+nav
+{
+    flex: 1;
+    text-align: right;
+    font-size: 20px;
+    text-decoration-style: none;
+    padding-top: 1rem;
+    padding-left: 1rem;
+    padding-left: 30px;
+}
+
+.navi
+{
+    padding-left: 30px;
+}
+nav ul li
+{
+    list-style: none;
+    display: inline-block;
+    margin-left: 70%;
+    margin: 0.5%;
+    margin-right: 5%;
+}
+
+
+nav ul li a{
+    color: white(72, 71, 71);
+    text-decoration: none;
+    
+}
+
+
+.text
+{
+    margin-top: 58%;
+    margin-left: 21%;
+}
+
+.container
+{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+.rand
+{
+    width: 40%;
+    border-radius: 10%;
+}
+.about-row
+{
+    display: flex;
+    flex-direction: row;
+}
+
+.row
+{
+    display: flex;
+    flex-direction: row;
+    font-size: large;
+    align-items: center;
+}
+
+.weird
+{
+    width: 60%;
+    border-radius: 100%;
+    margin-left: 83%;
+}
+
+.about
+{
+    text-align: center;
+}
+
+.heading
+{
+    font-size: 40px;
+}
+
+.desc
+{   
+    padding: 3rem;
+    font-size: larger;
+}
+
+.footer
+{
+    text-align: right;
+}
+
+.row
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.intro
+{
+    text-align: left;
+}
+
+.left
+{
+    text-align: left;
+}
+
+
+.card{
+    width: 170px;
+    height: 200px;
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 15px 15px;
+    border-radius: 10px;
+    margin-top: 50px;
+    margin-left: 40px;
+    cursor: pointer;
+    background-size: cover;
+    background-position: center;
+    transition: all 0.5s ease;
+}
+.c1{
+    background: url(./images/aphrodite.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: transform 0.5s ease;
+
+}
+
+.c2{
+    background: url(./images/poseidon.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.c3{
+    background: url(./images/zeus.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
